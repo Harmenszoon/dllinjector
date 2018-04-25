@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="library_loader.hpp">
+      <Filter>bin</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.hpp">
+      <Filter>portable_executable</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.hpp">
+      <Filter>registry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp">
+      <Filter>portable_executable</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>registry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bin">
+      <UniqueIdentifier>{d7dbf0b8-0e88-453d-8fa3-2de4f4904919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c87a1455-cff2-4aad-97ed-a7717b5c87c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portable_executable">
+      <UniqueIdentifier>{a53d039f-5a63-4068-9561-ef67353dd443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry">
+      <UniqueIdentifier>{b6c6451c-5d85-4b4d-ba0f-791a0f779ec9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
